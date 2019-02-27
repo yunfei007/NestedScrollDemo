@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HGBaseViewController.h"
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, assign) NSUInteger selectedIndex;
 
 
 @end
